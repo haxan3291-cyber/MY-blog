@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mustafa's Blog – 23-SE-105 (UET Taxila)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* ===== GLOBAL ===== */
+    * {margin: 0; padding: 0; box-sizing: border-box;}
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    a {color: #0077ff; text-decoration: none;}
+    a:hover {text-decoration: underline;}
+
+    /* ===== HEADER ===== */
+    header {
+      background: linear-gradient(to right, #0d47a1, #1976d2);
+      padding: 20px 60px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+    header .info h1 {
+      font-size: 24px;
+      font-weight: 700;
+    }
+    header .info p {
+      font-size: 14px;
+      opacity: 0.9;
+    }
+    header img {
+      height: 60px;
+      border-radius: 8px;
+      background: #fff;
+      padding: 5px;
+    }
+
+    /* ===== HERO ===== */
+    .hero {
+      text-align: center;
+      padding: 80px 20px 60px;
+      background: #e3f2fd;
+      background-image: linear-gradient(to bottom right, #e3f2fd, #bbdefb);
+    }
+    .hero h2 {
+      font-size: 40px;
+      font-weight: 700;
+      color: #0d47a1;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 18px;
+      color: #444;
+    }
+
+    /* ===== POSTS ===== */
+    .posts {
+      max-width: 1100px;
+      margin: 50px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+    .post {
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .post:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+    }
+    .post h3 {
+      color: #0d47a1;
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+    .post p {
+      font-size: 16px;
+      color: #555;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background: #0d47a1;
+      color: #fff;
+      text-align: center;
+      padding: 25px 20px;
+      margin-top: 50px;
+      font-size: 15px;
+    }
+
+    /* Responsive */
+    @media(max-width: 600px){
+      header {padding: 20px;}
+      .hero h2 {font-size: 32px;}
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="info">
+      <h1>Mustafa Ali Shahid –  23-SE-105</h1>
+      <p>University of Engineering & Technology Taxila</p>
+    </div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9EyPW_ixYWmJtjCgqlRY7jWZlqgYSzjDXvA&s" alt="UET Taxila Logo">
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <h2>Welcome to My Blog</h2>
+    <p>
+      Exploring technology, software engineering, and university projects.
+      Here I share my journey as a UET Taxila student and my passion for web development.
+    </p>
+  </section>
+
+  <!-- ===== BLOG POSTS ===== -->
+  <section class="posts">
+    <div class="post">
+      <h3>💡 Web Engineering Project Ideas</h3>
+      <p>
+        Discover creative web engineering project concepts—portfolio sites,
+        dynamic blogging platforms, and data dashboards for real-world impact.
+      </p>
+    </div>
+
+    <div class="post">
+      <h3>📊 Data Analytics Basics</h3>
+      <p>
+        A beginner-friendly guide to cleaning and visualizing data using
+        Python, Pandas, and tools like Power BI and Tableau.
+      </p>
+    </div>
+
+    <div class="post">
+      <h3>🚀 My Capstone Experience</h3>
+      <p>
+        Insights from my final-year project on fire evacuation simulation
+        using AnyLogic, focusing on agent-based modeling and emergency strategies.
+      </p>
+    </div>
+
+    <div class="post">
+      <h3>🖥️ Modern Web Tech</h3>
+      <p>
+        Exploring the MERN stack and how full-stack JavaScript frameworks are
+        reshaping the future of web applications.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    © 2025 Mustafa Ali Shahid – University of Engineering & Technology Taxila
+  </footer>
+
+</body>
+</html>
